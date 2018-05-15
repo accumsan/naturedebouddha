@@ -1,0 +1,39 @@
+a.nolink {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    /* Webkit */
+    
+    -moz-user-select: none;
+    /* Firefox */
+    
+    -ms-user-select: none;
+}
+
+span.active {
+    color: #e72c66;
+}
+
+span.inactive {
+    color: #3f444a;
+}
+
+header.main_header {
+    position: relative;
+    padding: 60px 0 260px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+mark {
+    background-color: grey
+}
+
+li.list-group-item {
+    background-color: grey
+}
